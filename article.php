@@ -2,8 +2,7 @@
 
 include "partials/header.php";
 require_once "./data/Data.php";
-$id = $posts;
-$id = json_decode($id, true);
+$id = $posts[$_GET['id']];
 
 $title = $id['title'];
 $author = $users[$id['user_id']]['username'];
