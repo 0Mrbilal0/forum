@@ -18,7 +18,7 @@ $comments = $id['comments'];
 //     $comments
 // );
 
-include "partials/footer.php";
+
 
 ?>
 
@@ -40,3 +40,5 @@ include "partials/footer.php";
         </nav>
     </footer>
 </article>
+
+<?php include 'partials/footer.php'; ?>
